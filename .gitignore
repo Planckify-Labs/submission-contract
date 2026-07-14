@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Env
+.env
+
+# EVM (Foundry)
+evm/cache/
+evm/out/
+evm/lib/
+evm/broadcast/*/31337/
+evm/broadcast/**/dry-run/
+
+# Solana (Anchor)
+solana/.anchor/
+solana/target/
+solana/test-ledger/
+solana/**/*.rs.bk
+
+# Sui (Move)
+sui/build/
+
+# Stellar (Soroban)
+stellar/target/
+stellar/**/test_snapshots/
+stellar/.stellar/
